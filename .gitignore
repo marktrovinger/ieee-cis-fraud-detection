@@ -6,3 +6,6 @@ data/
 
 # apple stuff
 .DS_Store
+
+# VS Code
+settings.json
