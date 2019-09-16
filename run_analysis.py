@@ -12,6 +12,7 @@ def main():
 
     train_full_df = train_transaction_df_clean.merge(train_identity_df_clean, how='left', left_index=True, right_index=True)
 
+    notify.submit_kaggle(train_full_df, 'test', '', test=True)
     notify.notify('Kaggle submission complete.')
 
 if __name__ == "__main__":
