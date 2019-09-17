@@ -12,3 +12,6 @@ settings.json
 
 # environment
 .env
+
+# dask worker-space
+dask-worker-space
